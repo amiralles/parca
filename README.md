@@ -1,11 +1,11 @@
-# Atropos
+# Parca
 This library provides a handful of *die helper methods* for .NET.
 
 ### How it works
 
 ```c
 using System;
-using static Atropos;
+using static Parca;
 
 // Just throws an exception.
 Die("Foo Error.");
@@ -60,8 +60,8 @@ If you don't wanna build the code by yourself you can grab a built copy from the
 
 
 ### About the name
-> Atropos was the oldest of the Three Fates, and was known as the "inflexible" or "inevitable." 
+> Parca (Atropos in greek) was the oldest of the Three Fates, and was known as the "inflexible" or "inevitable." 
 **It was Atropos who chose the mechanism of death and ended the life of mortals by cutting their thread** 
 with her "abhorred shears."
 
-Making an analogy with greek mythology, Atropos (the library) decide how to finish the life  of a given execution thread.
+Making an analogy with greek mythology, this library decide how to finish the life  of a given execution thread.
