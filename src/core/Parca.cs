@@ -1,7 +1,7 @@
 using System;
 
 /// This class provides a handful of *die* helper methods.
-public static class Atropos {
+public static class Parca {
 
 	/// Throws and exception with the given message.
 	public static void Die(string reason) { 

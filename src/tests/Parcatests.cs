@@ -1,11 +1,11 @@
 #pragma warning disable 414
 
 using System;
-using static Atropos;
+using static Parca;
 
 using _ = System.Action<Contest.Core.Runner>;
 
-class Atrotests {
+class Parcatests {
 	_ die = assert =>
 		assert.ErrMsg("Foo Error.", ()=> Die("Foo Error."));
 	
